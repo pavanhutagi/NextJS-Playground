@@ -1,15 +1,14 @@
 "use client";
 
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
 
 export default function About() {
-    return (
-      <>
+  return (
+    <>
       <Container>
-        <h1> I am About </h1>
+        <h1>I am About</h1>
         <p>This is a About Page</p>
-        </Container>
-      </>
-    )
-  }
-  
+      </Container>
+    </>
+  );
+}
