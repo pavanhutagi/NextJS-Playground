@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 export default function NavbarComponent() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" style={{ marginBottom: "20px" }}>
         <Container>
           <Navbar.Brand href="/">NextJS Playground</Navbar.Brand>
           <Nav className="me-auto">
