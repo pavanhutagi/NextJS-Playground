@@ -11,7 +11,7 @@ export default function NavbarComponent() {
         <Container>
           <Navbar.Brand href="/">NextJS Playground</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">AI Prompts</Nav.Link>
+            <Nav.Link href="/ai-prompts">AI Prompts</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
