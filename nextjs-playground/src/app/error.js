@@ -3,12 +3,12 @@
 import Container from "react-bootstrap/Container";
 import "./style.css";
 
-export default function Home() {
+export default function Error() {
   return (
     <>
-      <div className="ai-prompts-background">
+      <div className="home-background">
         <Container>
-          <h1>AI Prompts</h1>
+          <h1>Error occured</h1>
         </Container>
       </div>
     </>
