@@ -1,0 +1,81 @@
+.contact-section-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: 28px;
+  color: white;
+}
+
+.contact-form-container {
+  width: 600px;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #484848;
+  box-shadow: 0px 25px 100px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name-text-input,
+.email-text-input,
+.message-text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name-text-input label,
+.email-text-input label,
+.message-text-area label {
+  color: white;
+}
+
+.name-text-input input,
+.email-text-input input {
+  height: 50px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.message-text-area textarea {
+  border-radius: 20px;
+  padding: 10px;
+  max-height: 300px;
+  min-height: 100px;
+}
+
+.name-text-input p,
+.email-text-input p,
+.message-text-area p {
+  color: rgb(255, 119, 119);
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.send-button {
+  height: 60px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #63d447 0%, #2f7a1c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
+.send-button:hover {
+  background: linear-gradient(180deg, #a2e093 0%, #458635 100%);
+  cursor: pointer;
+}
+
+.notification {
+  font-size: 20px;
+  color: white;
+}

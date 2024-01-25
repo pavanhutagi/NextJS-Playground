@@ -1,0 +1,33 @@
+.hero-section-container {
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.sub-title {
+  font-size: 25px;
+}
+
+.connect-button {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(180deg, #846ad0 0%, #3b3158 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.connect-button:hover {
+  background: linear-gradient(180deg, #927dd2 0%, #413a57 100%);
+}
